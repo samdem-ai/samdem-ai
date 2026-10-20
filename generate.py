@@ -130,21 +130,27 @@ def svg(theme, s):
     return "\n".join(parts)
 
 
-def bust_cache():
-    """Point the README at ?v=<content hash> so GitHub's image cache picks up new cards immediately."""
-    digest = hashlib.sha1(b"".join(open(f"{t}_mode.svg", "rb").read() for t in THEMES)).hexdigest()[:8]
+def publish(cards):
+    """Write each card under a content-hashed name (card-dark-1a2b3c4d.svg) and point the README at it.
+
+    GitHub's raw CDN caches files by path for a few minutes, so a new name is the only way the
+    profile shows a fresh card immediately. Old cards are removed.
+    """
+    digest = hashlib.sha1("".join(cards.values()).encode()).hexdigest()[:8]
+    for old in os.listdir("."):
+        if re.fullmatch(r"card-(dark|light)-[0-9a-f]{8}\.svg|(dark|light)_mode\.svg", old):
+            os.remove(old)
+    for theme, content in cards.items():
+        with open(f"card-{theme}-{digest}.svg", "w") as f:
+            f.write(content)
     readme = open("README.md").read()
-    readme = re.sub(r"(dark_mode|light_mode)\.svg(\?v=[0-9a-f]+)?", rf"\1.svg?v={digest}", readme)
+    readme = re.sub(r"(?:card-)?(dark|light)(?:_mode|-[0-9a-f]{8})\.svg(?:\?v=[0-9a-f]+)?", rf"card-\1-{digest}.svg", readme)
     open("README.md", "w").write(readme)
+    print("published", digest)
 
 
 if __name__ == "__main__":
     s = stats()
-    for theme in THEMES:
-        path = f"{theme}_mode.svg"
-        if s is None and os.path.exists(path):
-            continue
-        with open(path, "w") as f:
-            f.write(svg(theme, s))
-        print("wrote", path, s)
-    bust_cache()
+    if s is None and any(f.startswith("card-") for f in os.listdir(".")):
+        raise SystemExit("stats unavailable, keeping the current cards")
+    publish({theme: svg(theme, s) for theme in THEMES})
