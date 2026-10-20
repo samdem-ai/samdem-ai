@@ -2,9 +2,11 @@
 
 Run locally with `python generate.py`. The GitHub Action runs it daily to refresh the stats.
 """
+import hashlib
 import html
 import json
 import os
+import re
 import urllib.request
 
 USER = "samdem-ai"
@@ -128,6 +130,14 @@ def svg(theme, s):
     return "\n".join(parts)
 
 
+def bust_cache():
+    """Point the README at ?v=<content hash> so GitHub's image cache picks up new cards immediately."""
+    digest = hashlib.sha1(b"".join(open(f"{t}_mode.svg", "rb").read() for t in THEMES)).hexdigest()[:8]
+    readme = open("README.md").read()
+    readme = re.sub(r"(dark_mode|light_mode)\.svg(\?v=[0-9a-f]+)?", rf"\1.svg?v={digest}", readme)
+    open("README.md", "w").write(readme)
+
+
 if __name__ == "__main__":
     s = stats()
     for theme in THEMES:
@@ -137,3 +147,4 @@ if __name__ == "__main__":
         with open(path, "w") as f:
             f.write(svg(theme, s))
         print("wrote", path, s)
+    bust_cache()
