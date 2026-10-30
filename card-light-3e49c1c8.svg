@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,'DejaVu Sans Mono',monospace" width="1070px" height="460px" font-size="16px">
-<rect width="1070px" height="460px" fill="#161b22" rx="15"/>
+<rect width="1070px" height="460px" fill="#f6f8fa" rx="15"/>
 <g shape-rendering="crispEdges">
 <rect x="208" y="32" width="8" height="8" fill="#747574"/>
 <rect x="216" y="32" width="16" height="8" fill="#626262"/>
@@ -1168,25 +1168,25 @@
 <rect x="280" y="408" width="8" height="8" fill="#273c21"/>
 <rect x="288" y="408" width="8" height="8" fill="#373d35"/>
 </g>
-<text x="490" y="44" fill="#c9d1d9" xml:space="preserve">
-<tspan x="490" y="44"><tspan fill="#ffa657">samy@algiers</tspan><tspan fill="#616e7f"> ---------------------------------------------</tspan></tspan>
-<tspan x="490" y="64"><tspan fill="#ffa657">OS</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">............................</tspan> <tspan fill="#a5d6ff">CachyOS, Windows lab VMs</tspan></tspan>
-<tspan x="490" y="84"><tspan fill="#ffa657">Role</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">............................</tspan> <tspan fill="#a5d6ff">Cybersecurity engineer</tspan></tspan>
-<tspan x="490" y="104"><tspan fill="#ffa657">Education</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">............</tspan> <tspan fill="#a5d6ff">ESTIN, Engineer + Master&#x27;s (2026)</tspan></tspan>
-<tspan x="490" y="124"><tspan fill="#ffa657">Focus</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">........</tspan> <tspan fill="#a5d6ff">Reverse engineering, DFIR, AI red teaming</tspan></tspan>
-<tspan x="490" y="144"><tspan fill="#ffa657">Now</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">...................</tspan> <tspan fill="#a5d6ff">HTB CPTS, open to SOC / IR roles</tspan></tspan>
-<tspan x="490" y="164"><tspan fill="#ffa657">Shell</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">.............................................</tspan> <tspan fill="#a5d6ff">fish</tspan></tspan>
+<text x="490" y="44" fill="#24292f" xml:space="preserve">
+<tspan x="490" y="44"><tspan fill="#953800">samy@algiers</tspan><tspan fill="#c2cfde"> ---------------------------------------------</tspan></tspan>
+<tspan x="490" y="64"><tspan fill="#953800">OS</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">............................</tspan> <tspan fill="#0a3069">CachyOS, Windows lab VMs</tspan></tspan>
+<tspan x="490" y="84"><tspan fill="#953800">Role</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">............................</tspan> <tspan fill="#0a3069">Cybersecurity engineer</tspan></tspan>
+<tspan x="490" y="104"><tspan fill="#953800">Education</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">............</tspan> <tspan fill="#0a3069">ESTIN, Engineer + Master&#x27;s (2026)</tspan></tspan>
+<tspan x="490" y="124"><tspan fill="#953800">Focus</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">........</tspan> <tspan fill="#0a3069">Reverse engineering, DFIR, AI red teaming</tspan></tspan>
+<tspan x="490" y="144"><tspan fill="#953800">Now</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">...................</tspan> <tspan fill="#0a3069">HTB CPTS, open to SOC / IR roles</tspan></tspan>
+<tspan x="490" y="164"><tspan fill="#953800">Shell</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">.............................................</tspan> <tspan fill="#0a3069">fish</tspan></tspan>
 <tspan x="490" y="184"></tspan>
-<tspan x="490" y="204"><tspan fill="#ffa657">Languages.Programming</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">.</tspan> <tspan fill="#a5d6ff">Python, C, C++, TypeScript, Bash</tspan></tspan>
-<tspan x="490" y="224"><tspan fill="#ffa657">Languages.Real</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">.................</tspan> <tspan fill="#a5d6ff">Arabic, French, English</tspan></tspan>
+<tspan x="490" y="204"><tspan fill="#953800">Languages.Programming</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">.</tspan> <tspan fill="#0a3069">Python, C, C++, TypeScript, Bash</tspan></tspan>
+<tspan x="490" y="224"><tspan fill="#953800">Languages.Real</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">.................</tspan> <tspan fill="#0a3069">Arabic, French, English</tspan></tspan>
 <tspan x="490" y="244"></tspan>
-<tspan x="490" y="264"><tspan fill="#ffa657">Tools.RE</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">................</tspan> <tspan fill="#a5d6ff">Ghidra, IDA Pro, YARA, x86/x64</tspan></tspan>
-<tspan x="490" y="284"><tspan fill="#ffa657">Tools.DFIR</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">............</tspan> <tspan fill="#a5d6ff">Velociraptor, Elastic, Wireshark</tspan></tspan>
+<tspan x="490" y="264"><tspan fill="#953800">Tools.RE</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">................</tspan> <tspan fill="#0a3069">Ghidra, IDA Pro, YARA, x86/x64</tspan></tspan>
+<tspan x="490" y="284"><tspan fill="#953800">Tools.DFIR</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">............</tspan> <tspan fill="#0a3069">Velociraptor, Elastic, Wireshark</tspan></tspan>
 <tspan x="490" y="304"></tspan>
-<tspan x="490" y="324"><tspan fill="#c9d1d9">- Contact </tspan><tspan fill="#616e7f">------------------------------------------------</tspan></tspan>
-<tspan x="490" y="344"><tspan fill="#ffa657">Email</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">...............................</tspan> <tspan fill="#a5d6ff">m_debaili@estin.dz</tspan></tspan>
-<tspan x="490" y="364"><tspan fill="#ffa657">LinkedIn</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">..................................</tspan> <tspan fill="#a5d6ff">samy-debaili</tspan></tspan>
+<tspan x="490" y="324"><tspan fill="#24292f">- Contact </tspan><tspan fill="#c2cfde">------------------------------------------------</tspan></tspan>
+<tspan x="490" y="344"><tspan fill="#953800">Email</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">...............................</tspan> <tspan fill="#0a3069">m_debaili@estin.dz</tspan></tspan>
+<tspan x="490" y="364"><tspan fill="#953800">LinkedIn</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">..................................</tspan> <tspan fill="#0a3069">samy-debaili</tspan></tspan>
 <tspan x="490" y="384"></tspan>
-<tspan x="490" y="404"><tspan fill="#c9d1d9">- GitHub Stats </tspan><tspan fill="#616e7f">-------------------------------------------</tspan></tspan>
-<tspan x="490" y="424"><tspan fill="#ffa657">Repos</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#616e7f">...............</tspan> <tspan fill="#a5d6ff">34  |  Stars: 93  |  Followers: 36</tspan></tspan>
+<tspan x="490" y="404"><tspan fill="#24292f">- GitHub Stats </tspan><tspan fill="#c2cfde">-------------------------------------------</tspan></tspan>
+<tspan x="490" y="424"><tspan fill="#953800">Repos</tspan><tspan fill="#24292f">: </tspan><tspan fill="#c2cfde">...............</tspan> <tspan fill="#0a3069">35  |  Stars: 93  |  Followers: 36</tspan></tspan>
 </text></svg>
